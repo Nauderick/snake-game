@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Karmatic Arcade';
+    src: url('fonts/ka1.ttf') format('opentype');
+}
+
+:root {
+    --font1: 'Karmatic Arcade'
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 7rem;
+    background-image: url(assets/background.png);
+}
+
+h1 {
+    font-family: var(--font1);
+    font-size: 5rem;
+}
